@@ -6,6 +6,7 @@ JSONPlaceholder API’den veri çekilir, CRUD işlemleri yapılabilir ve veriler
 ## 🚀 Özellikler
 - Kullanıcıları listeleme (API'den max 5 kullanıcı alındı)
 - Postları listeleme (Uygulama JSONPlaceholder’dan 10 kullanıcı ve 100 post çeker)
+- Header Component olarak kullanıdı user ve post biglileri props ile çekildi.
 - Kullanıcı ekleme, güncelleme, silme
 - Post ekleme, güncelleme, silme
 - Kullanıcı silindiğinde ona bağlı postların da silinmesi
