@@ -15,7 +15,6 @@ const Header = ({ userCount, postCount }: HeaderProps) => {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 md:gap-0">
-          {/* Logo & Title */}
           <div className="flex items-start space-x-4">
             <div className="bg-gradient-to-br from-blue-500 to-blue-600 p-3 rounded-2xl shadow-xl">
               <Users className="w-8 h-8 text-white" />
@@ -34,7 +33,7 @@ const Header = ({ userCount, postCount }: HeaderProps) => {
             </div>
           </div>
 
-          {/* Statistics */}
+          {/* User Post sayı kutuları*/}
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center sm:space-x-3 gap-3 sm:gap-0">
             <div className="group bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 transition-all duration-300 px-5 py-3 rounded-2xl cursor-pointer w-full sm:w-auto">
               <div className="flex items-center space-x-3">

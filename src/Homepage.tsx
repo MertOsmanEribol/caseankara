@@ -183,7 +183,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header - Props ile kullanıcı ve post sayısı gönderiliyor */}
+      
       <Header userCount={users.length} postCount={posts.length} />
 
       {/* Ana içerik */}
@@ -219,7 +219,7 @@ function App() {
         {/* Kullanıcılar sekme */}
         {activeTab === "users" && (
           <div className="space-y-6">
-            {/* Add User Card */}
+            {/* Kullanıcı ekleme */}
             <div className="bg-white rounded-lg shadow-md p-6">
               <h2 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
                 <Plus className="mr-2" size={20} />
@@ -333,7 +333,7 @@ function App() {
         {/* Post sekmesi */}
         {activeTab === "posts" && (
           <div className="space-y-6">
-            {/* Add Post Card */}
+            {/* Post ekleme*/}
             <div className="bg-white rounded-lg shadow-md p-6">
               <h2 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
                 <Plus className="mr-2" size={20} />
